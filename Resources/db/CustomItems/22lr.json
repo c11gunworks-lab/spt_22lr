@@ -1,0 +1,76 @@
+﻿{
+  "694c796b42ae52a1a940f8ba": {
+    "itemTplToClone": "573719762459775a626ccbc1",
+    "parentId": "5485a8684bdc2da71d8b4567",
+    "handbookParentId": "5b47574386f77428ca22b33b",
+    "overrideProperties": {
+      "ExaminedByDefault": true,
+      "Prefab": { "path": "22soft.bundle", "rcid": "" },
+      "Caliber": "Caliber22LR",
+      "PenetrationPower": 2,
+      "Damage": 48,
+      "ArmorDamage": 8,
+      "InitialSpeed": 330,
+      "BulletMassGram": 2.6,
+      "BulletDiameterMilimeters": 5.7,
+      "FragmentationChance": 0.1,
+      "RicochetChance": 0.2,
+      "MalfMisfireChance": 0.25,
+      "MalfFeedChance": 0.05,
+      "Weight": 0.004,
+      "ammoRec": -25,
+      "ammoAccr": 5,
+      "StackMaxSize": 50,
+      "Tracer": false,
+
+      "Grids": [],
+      "Slots": []
+    },
+    "locales": {
+      "en": {
+        "Name": ".22 Long Rifle Standard Velocity",
+        "ShortName": ".22LR SV",
+        "Description": "A .22 caliber Long Rifle cartridge with a 2.6 gram (40 grain) lead round nose bullet. Famous for its use in plinking and small game hunting, it is known for its low recoil and affordability, but has negligible performance against any kind of body armor."
+      }
+    },
+
+    "fleaPriceRoubles": 10,
+    "handbookPriceRoubles": 11,
+    "addtoBots": false,
+    "addCaliberToAllCloneLocations": true,
+    "addtoStaticAmmo": true,
+    "staticAmmoProbability": 55,
+    "addtoSpecialSlots": false,
+
+    "addtoModSlots": false,
+
+    "addtoStaticLootContainers": true,
+
+    "StaticLootContainers": [
+      {
+        "ContainerName": "LOOTCONTAINER_DEAD_SCAV",
+        "Probability": 250
+      }
+    ],
+    "addtoSecureFilters": true,
+    "addtoTraders": true,
+
+    "traders": {
+      "SKIER": {
+        "694c7a6a57b84cc7a440f8bc": {
+          "barterSettings": {
+            "loyalLevel": 1,
+            "unlimitedCount": true,
+            "stackObjectsCount": 99999
+          },
+          "barters": [
+            {
+              "count": 10,
+              "_tpl": "MONEY_ROUBLES"
+            }
+          ]
+        }
+      }
+    }
+  }
+}
