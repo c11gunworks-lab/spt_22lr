@@ -1,2 +1,12 @@
 ﻿{
+  "manifest": [
+    {
+      "key": "22soft.bundle",
+      "dependencyKeys": [
+        "shaders"
+
+      ]
+    }
+
+  ]
 }
