@@ -6,6 +6,20 @@
         "shaders"
 
       ]
+    },
+    {
+      "key": "hollowp.bundle",
+      "dependencyKeys": [
+        "shaders"
+
+      ]
+    },
+    {
+      "key": "ratshot.bundle",
+      "dependencyKeys": [
+        "shaders"
+
+      ]
     }
 
   ]
