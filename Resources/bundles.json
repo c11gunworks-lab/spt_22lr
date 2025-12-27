@@ -20,6 +20,13 @@
         "shaders"
 
       ]
+    },
+    {
+      "key": "tracer.bundle",
+      "dependencyKeys": [
+        "shaders"
+
+      ]
     }
 
   ]
