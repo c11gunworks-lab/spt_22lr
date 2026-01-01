@@ -19,7 +19,7 @@
       "MalfMisfireChance": 0.15,
       "MalfFeedChance": 0.05,
       "Weight": 0.004,
-      "ammoRec": -25,
+      "ammoRec": -20,
       "ammoAccr": 5,
       "StackMaxSize": 50,
       "ConflictingItems": [
