@@ -22,6 +22,21 @@
       "ammoRec": -25,
       "ammoAccr": 5,
       "StackMaxSize": 50,
+      "ConflictingItems": [
+        "5448bd6b4bdc2dfc2f8b4569",
+        "55d485be4bdc2d962f8b456f",
+        "5448c12b4bdc2d02308b456f",
+        "670e8eab8c1bb0e5a7075acf",
+        "56e0598dd2720bb5668b45a6",
+        "57d14d2524597714373db789",
+        "57d14e1724597714010c3f4b",
+        "57d1519e24597714373db79d",
+        "5a17f98cfcdbcb0980087290",
+        "5a17fb03fcdbcbcae668728f",
+        "5abccb7dd8ce87001773e277",
+        "57f3c6bd24597738e730fa2f"
+
+      ],
       "Tracer": false,
 
       "Grids": [],
@@ -105,6 +120,21 @@
       "ammoRec": -25,
       "ammoAccr": 5,
       "StackMaxSize": 50,
+      "ConflictingItems": [
+        "5448bd6b4bdc2dfc2f8b4569",
+        "55d485be4bdc2d962f8b456f",
+        "5448c12b4bdc2d02308b456f",
+        "670e8eab8c1bb0e5a7075acf",
+        "56e0598dd2720bb5668b45a6",
+        "57d14d2524597714373db789",
+        "57d14e1724597714010c3f4b",
+        "57d1519e24597714373db79d",
+        "5a17f98cfcdbcb0980087290",
+        "5a17fb03fcdbcbcae668728f",
+        "5abccb7dd8ce87001773e277",
+        "57f3c6bd24597738e730fa2f"
+
+      ],
 
       "Grids": [],
       "Slots": []
@@ -181,7 +211,21 @@
       "ammoAccr": -2,
       "StackMaxSize": 50,
       "Tracer": false,
+      "ConflictingItems": [
+        "5448bd6b4bdc2dfc2f8b4569",
+        "55d485be4bdc2d962f8b456f",
+        "5448c12b4bdc2d02308b456f",
+        "670e8eab8c1bb0e5a7075acf",
+        "56e0598dd2720bb5668b45a6",
+        "57d14d2524597714373db789",
+        "57d14e1724597714010c3f4b",
+        "57d1519e24597714373db79d",
+        "5a17f98cfcdbcb0980087290",
+        "5a17fb03fcdbcbcae668728f",
+        "5abccb7dd8ce87001773e277",
+        "57f3c6bd24597738e730fa2f"
 
+      ],
       "Grids": [],
       "Slots": []
     },
@@ -281,7 +325,21 @@
     "addtoStaticAmmo": true,
     "staticAmmoProbability": 55,
     "addtoSpecialSlots": false,
-
+    "ConflictingItems": [
+      "5448bd6b4bdc2dfc2f8b4569",
+        "55d485be4bdc2d962f8b456f",
+        "5448c12b4bdc2d02308b456f",
+        "670e8eab8c1bb0e5a7075acf",
+      "56e0598dd2720bb5668b45a6",
+      "57d14d2524597714373db789",
+        "57d14e1724597714010c3f4b",
+        "57d1519e24597714373db79d",
+      "5a17f98cfcdbcb0980087290",
+      "5a17fb03fcdbcbcae668728f",
+      "5abccb7dd8ce87001773e277",
+      "57f3c6bd24597738e730fa2f"
+      
+    ],
     "addtoModSlots": false,
 
     "addtoStaticLootContainers": true,

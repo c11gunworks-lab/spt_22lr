@@ -11,7 +11,7 @@ namespace Spt22lr;
 public record ModMetadata : AbstractModMetadata
 {
     // Updated ModGuid for consistency
-    public override string ModGuid { get; init; } = "com.c11.spt_22lr"; 
+    public override string ModGuid { get; init; } = "com.c11.spt22lr"; 
     public override string Name { get; init; } = ".22 Long Rifle";
     public override string Author { get; init; } = "C11";
     public override SemanticVersioning.Version Version { get; init; } = new("1.0.0");
