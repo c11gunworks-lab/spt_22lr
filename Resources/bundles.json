@@ -1,30 +1,91 @@
 ﻿{
   "manifest": [
     {
-      "key": "22soft.bundle",
+      "key": "c11_shaders_22.bundle",
       "dependencyKeys": [
-        "shaders"
 
       ]
     },
+   
+    {
+      "key": "22lr.bundle",
+      "dependencyKeys": [
+        "c11_shaders_22.bundle"
+
+      ]
+    }, 
+    
+    {
+      "key": "22soft.bundle",
+      "dependencyKeys": [
+        "22lr.bundle",
+        "c11_shaders_22.bundle"
+
+      ]
+    },
+    
+    
     {
       "key": "hollowp.bundle",
       "dependencyKeys": [
-        "shaders"
+        "22lr.bundle",
+        "c11_shaders_22.bundle"
 
       ]
     },
     {
       "key": "ratshot.bundle",
       "dependencyKeys": [
-        "shaders"
+        "22lr.bundle",
+        "c11_shaders_22.bundle"
 
       ]
     },
     {
       "key": "tracer.bundle",
       "dependencyKeys": [
-        "shaders"
+        "22lr.bundle",
+        "c11_shaders_22.bundle"
+
+      ]
+    },
+    {
+      "key": "eley_sport.bundle",
+      "dependencyKeys": [
+        "22lr.bundle",
+        "c11_shaders_22.bundle"
+
+      ]
+    },
+    {
+      "key": "eley_tenex.bundle",
+      "dependencyKeys": [
+        "22lr.bundle",
+        "c11_shaders_22.bundle"
+
+      ]
+    },
+    {
+      "key": "hyperspeed.bundle",
+      "dependencyKeys": [
+        "22lr.bundle",
+        "c11_shaders_22.bundle"
+
+      ]
+    },
+    {
+      "key": "lapua_sk.bundle",
+      "dependencyKeys": [
+        "22lr.bundle",
+        "c11_shaders_22.bundle"
+
+      ]
+    },
+    {
+      "key": "eley_sport_box.bundle",
+      "dependencyKeys": [
+        "22lr.bundle",
+        "c11_shaders_22.bundle"
 
       ]
     }

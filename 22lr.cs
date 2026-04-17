@@ -5,25 +5,23 @@ using SPTarkov.Server.Core.Models.Spt.Mod;
 using System.Reflection;
 using Range = SemanticVersioning.Range;
 
-// Changed namespace to match the mod's purpose
 namespace Spt22lr;
 
 public record ModMetadata : AbstractModMetadata
 {
-    // Updated ModGuid for consistency
     public override string ModGuid { get; init; } = "com.c11.spt22lr"; 
     public override string Name { get; init; } = ".22 Long Rifle";
     public override string Author { get; init; } = "C11";
-    public override SemanticVersioning.Version Version { get; init; } = new("1.0.0");
+    public override SemanticVersioning.Version Version { get; init; } = new("1.5.0");
 
-    public override Range SptVersion { get; init; } = new("^4.0.8");
+    public override Range SptVersion { get; init; } = new("^4.0.10");
 
     public override string License { get; init; } = "MIT";
     public override bool? IsBundleMod { get; init; } = true;
 
     public override Dictionary<string, Range>? ModDependencies { get; init; } = new()
     {
-        { "com.wtt.commonlib", new Range("~2.0.7") }
+        { "com.wtt.commonlib", new Range("~2.0.18") }
     };
 
     public override string? Url { get; init; }
@@ -32,10 +30,8 @@ public record ModMetadata : AbstractModMetadata
 }
 
 [Injectable(TypePriority = OnLoadOrder.PostDBModLoader + 2)]
-// Renamed the class for clarity (e.g., "Plugin")
 public class Plugin(
     WTTServerCommonLib.WTTServerCommonLib wttCommon,
-    // Corrected the ILogger generic type to use this class
     ILogger<Plugin> log 
 ) : IOnLoad
 {
@@ -43,14 +39,13 @@ public class Plugin(
     {
         var assembly = Assembly.GetExecutingAssembly();
 
-        // Log resource names once while wiring things up
         foreach (var name in assembly.GetManifestResourceNames())
-            // Updated log prefix for consistency
             log.LogDebug("[spt_22lr] Embedded resource: {Res}", name);
 
-        // WTT ingestion
         await wttCommon.CustomItemServiceExtended.CreateCustomItems(assembly);
         await wttCommon.CustomLocaleService.CreateCustomLocales(assembly);
+    	await wttCommon.CustomAssortSchemeService.CreateCustomAssortSchemes(assembly);
+
 
         log.LogInformation("Loaded your Plinking Dreams");
         await Task.CompletedTask;

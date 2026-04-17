@@ -10,5 +10,26 @@
   "694efa39da82e820e540f8da Description": "CCI continues to set the standard for quality in the 22 Long Rifle (LR) cartridge. Newly manufactured by CCI, this load is designed for pest control such as killing rats, mice, and snakes at close range (under 15 feet).\n\nThis snake shot is an ideal load manufactured to the high standards that you’ve come to expect from CCI utilizing their clean burning propellants designed to keep actions cleaner. This cartridge is not intended to cycle semi-automatic firearms. (But for today only, it will)",
   "69504d179eec4a16c140f8df Name": "Piney Mountain .22LR Tracer",
   "69504d179eec4a16c140f8df ShortName": ".22 Tracer",
-  "69504d179eec4a16c140f8df Description": "Turn your plinking rifle or pistol into a Star Wars blaster with this one easy step."
+  "69504d179eec4a16c140f8df Description": "Turn your plinking rifle or pistol into a Star Wars blaster with this one easy step.",
+
+
+  "42fb193ffb1315101b1d0441 Name": ".22 Eley Sport",
+  "42fb193ffb1315101b1d0441 ShortName": ".22LR Sport",
+  "42fb193ffb1315101b1d0441 Description": "A 40 grain solid lead round nose .22LR cartridge traveling at 1090 fps. A reliable and consistent standard velocity round popular for target shooting and plinking.",
+
+  "2b6a06054693ed3fa9c47542 Name": ".22 Eley Tenex Biathlon",
+  "2b6a06054693ed3fa9c47542 ShortName": ".22LR Tenex",
+  "2b6a06054693ed3fa9c47542 Description": "A 40 grain premium competition .22LR cartridge traveling at 1080 fps. Engineered specifically for extreme cold weather reliability and match-grade accuracy used in Olympic Biathlon events.",
+
+  "b972903f30708cd41c8265ba Name": ".22 CCI Clean-22 Hyper Velocity",
+  "b972903f30708cd41c8265ba ShortName": ".22LR Clean",
+  "b972903f30708cd41c8265ba Description": "A 31 grain polymer-coated .22LR cartridge traveling at a blistering 1550 fps. The lightweight bullet and high velocity give it slightly better penetration and flesh damage, while the polymer coating reduces barrel fouling.",
+
+  "e8e8cdc108d343708aa07b2d Name": ".22 Lapua SK Standard Plus",
+  "e8e8cdc108d343708aa07b2d ShortName": ".22LR SK+",
+  "e8e8cdc108d343708aa07b2d Description": "A 40 grain lubricated lead round nose .22LR cartridge traveling at 1073 fps. A highly regarded training ammunition known for its reliability and tight groupings.",
+  
+  "69e164b6a49a3fc18dff1845 Name": "50-round box of .22 Eley Sport",
+  "69e164b6a49a3fc18dff1845 ShortName": "50-rd Eley Sport",
+  "69e164b6a49a3fc18dff1845 Description": "A cardboard box containing 50 rounds of .22LR Eley Sport ammunition."
 }

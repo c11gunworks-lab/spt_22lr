@@ -65,8 +65,12 @@
     "addtoStaticLootContainers": true,
 
     "StaticLootContainers": [
-      {
+       {
         "ContainerName": "LOOTCONTAINER_DEAD_SCAV",
+        "Probability": 100
+      },
+      {
+        "ContainerName": "LOOTCONTAINER_WEAPON_BOX_4X4",
         "Probability": 250
       }
     ],
@@ -162,8 +166,12 @@
     "addtoStaticLootContainers": true,
 
     "StaticLootContainers": [
-      {
+       {
         "ContainerName": "LOOTCONTAINER_DEAD_SCAV",
+        "Probability": 100
+      },
+      {
+        "ContainerName": "LOOTCONTAINER_WEAPON_BOX_4X4",
         "Probability": 250
       }
     ],
@@ -252,8 +260,12 @@
     "addtoStaticLootContainers": true,
 
     "StaticLootContainers": [
-      {
+       {
         "ContainerName": "LOOTCONTAINER_DEAD_SCAV",
+        "Probability": 100
+      },
+      {
+        "ContainerName": "LOOTCONTAINER_WEAPON_BOX_4X4",
         "Probability": 250
       }
     ],
@@ -347,8 +359,12 @@
     "addtoStaticLootContainers": true,
 
     "StaticLootContainers": [
-      {
+       {
         "ContainerName": "LOOTCONTAINER_DEAD_SCAV",
+        "Probability": 100
+      },
+      {
+        "ContainerName": "LOOTCONTAINER_WEAPON_BOX_4X4",
         "Probability": 250
       }
     ],
@@ -372,5 +388,346 @@
         }
       }
     }
+  },
+  "42fb193ffb1315101b1d0441": {
+    "itemTplToClone": "573719762459775a626ccbc1",
+    "parentId": "5485a8684bdc2da71d8b4567",
+    "handbookParentId": "5b47574386f77428ca22b33b",
+    "overrideProperties": {
+      "ExaminedByDefault": true,
+      "Prefab": { "path": "eley_sport.bundle", "rcid": "" },
+      "Caliber": "Caliber22LR",
+      "PenetrationPower": 2,
+      "Damage": 26,
+      "Loudness": -25,
+      "ArmorDamage": 8,
+      "InitialSpeed": 332,
+      "BulletMassGram": 2.59,
+      "BulletDiameterMilimeters": 5.7,
+      "FragmentationChance": 0.1,
+      "RicochetChance": 0.2,
+      "MalfMisfireChance": 0.10,
+      "MalfFeedChance": 0.05,
+      "Weight": 0.004,
+      "ammoRec": -20,
+      "ammoAccr": 5,
+      "StackMaxSize": 50,
+      "ConflictingItems": [
+        "5448bd6b4bdc2dfc2f8b4569", "55d485be4bdc2d962f8b456f", "5448c12b4bdc2d02308b456f", "670e8eab8c1bb0e5a7075acf", "56e0598dd2720bb5668b45a6", "57d14d2524597714373db789", "57d14e1724597714010c3f4b", "57d1519e24597714373db79d", "5a17f98cfcdbcb0980087290", "5a17fb03fcdbcbcae668728f", "5abccb7dd8ce87001773e277", "57f3c6bd24597738e730fa2f"
+      ],
+      "Tracer": false,
+      "Grids": [],
+      "Slots": []
+    },
+    "locales": {
+      "en": {
+        "Name": ".22 Eley Sport",
+        "ShortName": ".22LR Sport",
+        "Description": "A 40 grain solid lead round nose .22LR cartridge traveling at 1090 fps. A reliable and consistent standard velocity round popular for target shooting and plinking."
+      }
+    },
+    "fleaPriceRoubles": 15,
+    "handbookPriceRoubles": 16,
+    "addtoBots": false,
+    "addCaliberToAllCloneLocations": false,
+    "addtoStaticAmmo": true,
+    "staticAmmoProbability": 55,
+    "addtoSpecialSlots": false,
+    "addtoModSlots": false,
+    "addtoStaticLootContainers": true,
+    "StaticLootContainers": [
+            {
+        "ContainerName": "LOOTCONTAINER_DEAD_SCAV",
+        "Probability": 100
+      },
+      {
+        "ContainerName": "LOOTCONTAINER_WEAPON_BOX_4X4",
+        "Probability": 250
+      }
+    ],
+    "addtoSecureFilters": true,
+    "addtoTraders": true,
+    "traders": {
+      "SKIER": {
+        "69e162ce186f506184ff1842": {
+          "barterSettings": { "loyalLevel": 1, "unlimitedCount": true, "stackObjectsCount": 99999 },
+          "barters": [ { "count": 15, "_tpl": "MONEY_ROUBLES" } ]
+        }
+      }
+    }
+  },
+
+  "2b6a06054693ed3fa9c47542": {
+    "itemTplToClone": "573719762459775a626ccbc1",
+    "parentId": "5485a8684bdc2da71d8b4567",
+    "handbookParentId": "5b47574386f77428ca22b33b",
+    "overrideProperties": {
+      "ExaminedByDefault": true,
+      "Prefab": { "path": "eley_tenex.bundle", "rcid": "" },
+      "Caliber": "Caliber22LR",
+      "PenetrationPower": 2,
+      "Damage": 25,
+      "Loudness": -25,
+      "ArmorDamage": 8,
+      "InitialSpeed": 329,
+      "BulletMassGram": 2.59,
+      "BulletDiameterMilimeters": 5.7,
+      "FragmentationChance": 0.05,
+      "RicochetChance": 0.2,
+      "MalfMisfireChance": 0.01,
+      "MalfFeedChance": 0.02,
+      "Weight": 0.004,
+      "ammoRec": -30,
+      "ammoAccr": 15,
+      "StackMaxSize": 50,
+      "ConflictingItems": [
+        "5448bd6b4bdc2dfc2f8b4569", "55d485be4bdc2d962f8b456f", "5448c12b4bdc2d02308b456f", "670e8eab8c1bb0e5a7075acf", "56e0598dd2720bb5668b45a6", "57d14d2524597714373db789", "57d14e1724597714010c3f4b", "57d1519e24597714373db79d", "5a17f98cfcdbcb0980087290", "5a17fb03fcdbcbcae668728f", "5abccb7dd8ce87001773e277", "57f3c6bd24597738e730fa2f"
+      ],
+      "Tracer": false,
+      "Grids": [],
+      "Slots": []
+    },
+    "locales": {
+      "en": {
+        "Name": ".22 Eley Tenex Biathlon",
+        "ShortName": ".22LR Tenex",
+        "Description": "A 40 grain premium competition .22LR cartridge traveling at 1080 fps. Engineered specifically for extreme cold weather reliability and match-grade accuracy used in Olympic Biathlon events."
+      }
+    },
+    "fleaPriceRoubles": 45,
+    "handbookPriceRoubles": 50,
+    "addtoBots": false,
+    "addCaliberToAllCloneLocations": false,
+    "addtoStaticAmmo": true,
+    "staticAmmoProbability": 30,
+    "addtoSpecialSlots": false,
+    "addtoModSlots": false,
+    "addtoStaticLootContainers": true,
+    "StaticLootContainers": [
+      {
+        "ContainerName": "LOOTCONTAINER_DEAD_SCAV",
+        "Probability": 100
+      },
+      {
+        "ContainerName": "LOOTCONTAINER_WEAPON_BOX_4X4",
+        "Probability": 250
+      }
+    ],
+    "addtoSecureFilters": true,
+    "addtoTraders": true,
+    "traders": {
+      "SKIER": {
+        "69e1630b638ca9eb4eff1843": {
+          "barterSettings": { "loyalLevel": 3, "unlimitedCount": true, "stackObjectsCount": 99999 },
+          "barters": [ { "count": 65, "_tpl": "MONEY_ROUBLES" } ]
+        }
+      }
+    }
+  },
+
+  "b972903f30708cd41c8265ba": {
+    "itemTplToClone": "573719762459775a626ccbc1",
+    "parentId": "5485a8684bdc2da71d8b4567",
+    "handbookParentId": "5b47574386f77428ca22b33b",
+    "overrideProperties": {
+      "ExaminedByDefault": true,
+      "Prefab": { "path": "hyperspeed.bundle", "rcid": "" },
+      "Caliber": "Caliber22LR",
+      "PenetrationPower": 3,
+      "Damage": 38,
+      "Loudness": -15,
+      "ArmorDamage": 10,
+      "InitialSpeed": 472,
+      "BulletMassGram": 2.01,
+      "BulletDiameterMilimeters": 5.7,
+      "FragmentationChance": 0.25,
+      "RicochetChance": 0.2,
+      "MalfMisfireChance": 0.15,
+      "MalfFeedChance": 0.10,
+      "Weight": 0.003,
+      "ammoRec": -10,
+      "ammoAccr": -5,
+      "StackMaxSize": 50,
+      "ConflictingItems": [
+        "5448bd6b4bdc2dfc2f8b4569", "55d485be4bdc2d962f8b456f", "5448c12b4bdc2d02308b456f", "670e8eab8c1bb0e5a7075acf", "56e0598dd2720bb5668b45a6", "57d14d2524597714373db789", "57d14e1724597714010c3f4b", "57d1519e24597714373db79d", "5a17f98cfcdbcb0980087290", "5a17fb03fcdbcbcae668728f", "5abccb7dd8ce87001773e277", "57f3c6bd24597738e730fa2f"
+      ],
+      "Tracer": false,
+      "Grids": [],
+      "Slots": []
+    },
+    "locales": {
+      "en": {
+        "Name": ".22 CCI Clean-22 Hyper Velocity",
+        "ShortName": ".22LR Clean",
+        "Description": "A 31 grain polymer-coated .22LR cartridge traveling at a blistering 1550 fps. The lightweight bullet and high velocity give it slightly better penetration and flesh damage, while the polymer coating reduces barrel fouling."
+      }
+    },
+    "fleaPriceRoubles": 25,
+    "handbookPriceRoubles": 28,
+    "addtoBots": false,
+    "addCaliberToAllCloneLocations": false,
+    "addtoStaticAmmo": true,
+    "staticAmmoProbability": 45,
+    "addtoSpecialSlots": false,
+    "addtoModSlots": false,
+    "addtoStaticLootContainers": true,
+    "StaticLootContainers": [
+            {
+        "ContainerName": "LOOTCONTAINER_DEAD_SCAV",
+        "Probability": 100
+      },
+      {
+        "ContainerName": "LOOTCONTAINER_WEAPON_BOX_4X4",
+        "Probability": 250
+      }
+    ],
+    "addtoSecureFilters": true,
+    "addtoTraders": true,
+    "traders": {
+      "SKIER": {
+        "69e1648116bce3a049ff1844": {
+          "barterSettings": { "loyalLevel": 2, "unlimitedCount": true, "stackObjectsCount": 99999 },
+          "barters": [ { "count": 35, "_tpl": "MONEY_ROUBLES" } ]
+        }
+      }
+    }
+  },
+
+  "e8e8cdc108d343708aa07b2d": {
+    "itemTplToClone": "573719762459775a626ccbc1",
+    "parentId": "5485a8684bdc2da71d8b4567",
+    "handbookParentId": "5b47574386f77428ca22b33b",
+    "overrideProperties": {
+      "ExaminedByDefault": true,
+      "Prefab": { "path": "lapua_sk.bundle", "rcid": "" },
+      "Caliber": "Caliber22LR",
+      "PenetrationPower": 2,
+      "Damage": 25,
+      "Loudness": -25,
+      "ArmorDamage": 8,
+      "InitialSpeed": 327,
+      "BulletMassGram": 2.59,
+      "BulletDiameterMilimeters": 5.7,
+      "FragmentationChance": 0.1,
+      "RicochetChance": 0.2,
+      "MalfMisfireChance": 0.08,
+      "MalfFeedChance": 0.05,
+      "Weight": 0.004,
+      "ammoRec": -25,
+      "ammoAccr": 10,
+      "StackMaxSize": 50,
+      "ConflictingItems": [
+        "5448bd6b4bdc2dfc2f8b4569", "55d485be4bdc2d962f8b456f", "5448c12b4bdc2d02308b456f", "670e8eab8c1bb0e5a7075acf", "56e0598dd2720bb5668b45a6", "57d14d2524597714373db789", "57d14e1724597714010c3f4b", "57d1519e24597714373db79d", "5a17f98cfcdbcb0980087290", "5a17fb03fcdbcbcae668728f", "5abccb7dd8ce87001773e277", "57f3c6bd24597738e730fa2f"
+      ],
+      "Tracer": false,
+      "Grids": [],
+      "Slots": []
+    },
+    "locales": {
+      "en": {
+        "Name": ".22 Lapua SK Standard Plus",
+        "ShortName": ".22LR SK+",
+        "Description": "A 40 grain lubricated lead round nose .22LR cartridge traveling at 1073 fps. A highly regarded training ammunition known for its reliability and tight groupings."
+      }
+    },
+    "fleaPriceRoubles": 20,
+    "handbookPriceRoubles": 22,
+    "addtoBots": false,
+    "addCaliberToAllCloneLocations": false,
+    "addtoStaticAmmo": true,
+    "staticAmmoProbability": 50,
+    "addtoSpecialSlots": false,
+    "addtoModSlots": false,
+    "addtoStaticLootContainers": true,
+    "StaticLootContainers": [
+            {
+        "ContainerName": "LOOTCONTAINER_DEAD_SCAV",
+        "Probability": 100
+      },
+      {
+        "ContainerName": "LOOTCONTAINER_WEAPON_BOX_4X4",
+        "Probability": 250
+      }
+    ],
+    "addtoSecureFilters": true,
+    "addtoTraders": true,
+    "traders": {
+      "SKIER": {
+        "8e63215d543a75202f7fc2ea": {
+          "barterSettings": { "loyalLevel": 1, "unlimitedCount": true, "stackObjectsCount": 99999 },
+          "barters": [ { "count": 22, "_tpl": "MONEY_ROUBLES" } ]
+        }
+      }
+    }
+  },
+  
+  "69e164b6a49a3fc18dff1845": {
+    "itemTplToClone": "573722e82459776104581c21",
+    "parentId": "543be5cb4bdc2deb348b4568",
+    "handbookParentId": "5b47574386f77428ca22b33c",
+    "overrideProperties": {
+      "BackgroundColor": "yellow",
+      "Description": "ammo_box_22lr_50_eley_sport",
+      "Name": "ammo_box_22lr_50_eley_sport",
+      "ShortName": "ammo_box_22lr_50_eley_sport",
+      "Prefab": {
+        "path": "eley_sport_box.bundle",
+        "rcid": ""
+      },
+      "StackMaxRandom":50,
+      "StackMaxSize":1,
+      "StackMinRandom":50,
+      "StackObjectsCount":1,
+      "StackSlots": [
+        {
+          "_id": "69e164efc3fedacb3aff1846",
+          "_max_count": 50,
+          "_name": "cartridges",
+          "_parent": "69e164b6a49a3fc18dff1845",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "42fb193ffb1315101b1d0441"
+                ]
+              }
+            ]
+          },
+          "_proto": "5748538b2459770af276a261"
+        }
+      ],
+      "Weight": 0.145,
+      "ammoCaliber": "Caliber22LR"
+    },
+    "locales": {
+      "en": {
+        "Name": "50-round box of .22 Eley Sport",
+        "ShortName": "50-rd Eley Sport",
+        "Description": "A cardboard box containing 50 rounds of .22LR Eley Sport ammunition."
+      }
+    },
+    "fleaPriceRoubles": 800,
+    "handbookPriceRoubles": 850,
+    "addtoBots": true,
+    "addCaliberToAllCloneLocations": false,
+    "addtoStaticAmmo": true,
+    "staticAmmoProbability": 50,
+    "addtoSpecialSlots": false,
+    "addtoModSlots": false,
+    "addtoStaticLootContainers": true,
+    "StaticLootContainers": [
+      {
+        "ContainerName": "LOOTCONTAINER_DEAD_SCAV",
+        "Probability": 100
+      },
+      {
+        "ContainerName": "LOOTCONTAINER_WEAPON_BOX_4X4",
+        "Probability": 250
+      }
+    ],
+    "addtoSecureFilters": true,
+    "addtoTraders": false,
+    "traders": {    }
   }
+  
 }
