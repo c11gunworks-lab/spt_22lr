@@ -675,6 +675,7 @@
         "rcid": ""
       },
       "StackMaxRandom":50,
+      "Caliber": "Caliber22LR",
       "StackMaxSize":1,
       "StackMinRandom":50,
       "StackObjectsCount":1,
@@ -728,6 +729,358 @@
     "addtoSecureFilters": true,
     "addtoTraders": false,
     "traders": {    }
-  }
+  },
+  "69f291eaefe61a366be34f57": {
+    "itemTplToClone": "573722e82459776104581c21",
+    "parentId": "543be5cb4bdc2deb348b4568",
+    "handbookParentId": "5b47574386f77428ca22b33c",
+    "overrideProperties": {
+      "BackgroundColor": "yellow",
+
+      "Prefab": {
+        "path": "eley_tenex_box.bundle",
+        "rcid": ""
+      },
+      "Caliber": "Caliber22LR",
+
+      "StackMaxRandom":50,
+      "StackMaxSize":1,
+      "StackMinRandom":50,
+      "StackObjectsCount":1,
+      "StackSlots": [
+        {
+          "_id": "69f291fa36648c65cae34f58",
+          "_max_count": 50,
+          "_name": "cartridges",
+          "_parent": "69f291eaefe61a366be34f57",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "2b6a06054693ed3fa9c47542"
+                ]
+              }
+            ]
+          },
+          "_proto": "5748538b2459770af276a261"
+        }
+      ],
+      "Weight": 0.145,
+      "ammoCaliber": "Caliber22LR"
+    },
+    "locales": {
+      "en": {
+        "Name": "50-round box of .22 Eley tenex",
+        "ShortName": "50-rd Eley tenex",
+        "Description": "A cardboard box containing 50 rounds of .22LR Eley tenex ammunition."
+      }
+    },
+    "fleaPriceRoubles": 1800,
+    "handbookPriceRoubles": 1850,
+    "addtoBots": true,
+    "addCaliberToAllCloneLocations": false,
+    "addtoStaticAmmo": true,
+    "staticAmmoProbability": 50,
+    "addtoSpecialSlots": false,
+    "addtoModSlots": false,
+    "addtoStaticLootContainers": true,
+    "StaticLootContainers": [
+      {
+        "ContainerName": "LOOTCONTAINER_DEAD_SCAV",
+        "Probability": 100
+      },
+      {
+        "ContainerName": "LOOTCONTAINER_WEAPON_BOX_4X4",
+        "Probability": 250
+      }
+    ],
+    "addtoSecureFilters": true,
+    "addtoTraders": false,
+    "traders": {    }
+  },
+  "69f292197231a3b514e34f59": {
+    "itemTplToClone": "573722e82459776104581c21",
+    "parentId": "543be5cb4bdc2deb348b4568",
+    "handbookParentId": "5b47574386f77428ca22b33c",
+    "overrideProperties": {
+      "BackgroundColor": "yellow",
+      
+      "Prefab": {
+        "path": "cci_100rd_box.bundle",
+        "rcid": ""
+      },
+      "StackMaxRandom":100,
+      "StackMaxSize":1,
+      "Caliber": "Caliber22LR",
+
+      "StackMinRandom":100,
+      "StackObjectsCount":1,
+      "StackSlots": [
+        {
+          "_id": "69f29234554b4b1007e34f5a",
+          "_max_count": 100,
+          "_name": "cartridges",
+          "_parent": "69f292197231a3b514e34f59",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "694ef9c8bc499b141d40f8d7"
+                ]
+              }
+            ]
+          },
+          "_proto": "5748538b2459770af276a261"
+        }
+      ],
+      "Weight": 0.145,
+      "ammoCaliber": "Caliber22LR"
+    },
+    "locales": {
+      "en": {
+        "Name": "100cci",
+        "ShortName": "100cci",
+        "Description": "A cardboard box containing 100cci."
+      }
+    },
+    "fleaPriceRoubles": 300,
+    "handbookPriceRoubles": 550,
+    "addtoBots": true,
+    "addCaliberToAllCloneLocations": false,
+    "addtoStaticAmmo": true,
+    "staticAmmoProbability": 50,
+    "addtoSpecialSlots": false,
+    "addtoModSlots": false,
+    "addtoStaticLootContainers": true,
+    "StaticLootContainers": [
+      {
+        "ContainerName": "LOOTCONTAINER_DEAD_SCAV",
+        "Probability": 100
+      },
+      {
+        "ContainerName": "LOOTCONTAINER_WEAPON_BOX_4X4",
+        "Probability": 250
+      }
+    ],
+    "addtoSecureFilters": true,
+    "addtoTraders": false,
+    "traders": {    }
+  },
+  "69f2925e692935d7f1e34f5b": {
+    "itemTplToClone": "573722e82459776104581c21",
+    "parentId": "543be5cb4bdc2deb348b4568",
+    "handbookParentId": "5b47574386f77428ca22b33c",
+    "overrideProperties": {
+      "BackgroundColor": "yellow",
+
+      "Prefab": {
+        "path": "lapua_box.bundle",
+        "rcid": ""
+      },
+      "Caliber": "Caliber22LR",
+
+      "StackMaxRandom":50,
+      "StackMaxSize":1,
+      "StackMinRandom":50,
+      "StackObjectsCount":1,
+      "StackSlots": [
+        {
+          "_id": "69f2927fd0f2055555e34f5d",
+          "_max_count": 50,
+          "_name": "cartridges",
+          "_parent": "69f2925e692935d7f1e34f5b",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "e8e8cdc108d343708aa07b2d"
+                ]
+              }
+            ]
+          },
+          "_proto": "5748538b2459770af276a261"
+        }
+      ],
+      "Weight": 0.145,
+      "ammoCaliber": "Caliber22LR"
+    },
+    "locales": {
+      "en": {
+        "Name": "lapua box",
+        "ShortName": "lapua box",
+        "Description": "A cardboard box containing lapua."
+      }
+    },
+    "fleaPriceRoubles": 400,
+    "handbookPriceRoubles": 450,
+    "addtoBots": true,
+    "addCaliberToAllCloneLocations": false,
+    "addtoStaticAmmo": true,
+    "staticAmmoProbability": 50,
+    "addtoSpecialSlots": false,
+    "addtoModSlots": false,
+    "addtoStaticLootContainers": true,
+    "StaticLootContainers": [
+      {
+        "ContainerName": "LOOTCONTAINER_DEAD_SCAV",
+        "Probability": 100
+      },
+      {
+        "ContainerName": "LOOTCONTAINER_WEAPON_BOX_4X4",
+        "Probability": 250
+      }
+    ],
+    "addtoSecureFilters": true,
+    "addtoTraders": false,
+    "traders": {    }
+  },
+  "69f2959e00bfd73b3de34f64": {
+    "itemTplToClone": "5ede475339ee016e8c534742",
+    "parentId": "5485a8684bdc2da71d8b4567",
+    "handbookParentId": "5b47574386f77428ca22b33b",
+    "overrideProperties": {
+      "Prefab": 
+      { "path": "40mm_bee.bundle",
+        "rcid": "" },
+      "Caliber": "Caliber40x46",
+
+      "AmmoLifeTimeSec": 20,
+      "AmmoTooltipClass": "SoftTargets",
+      "AnimationVariantsNumber": 0,
+      "ArmorDamage": 65,
+      "ArmorDistanceDistanceDamage": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "BackgroundColor": "yellow",
+      "BallisticCoeficient": 0.13,
+      "Blindness": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+
+      "BulletDiameterMilimeters": 5.7,
+      "BulletMassGram": 2.6,
+  "CanRequireOnRagfair": false,
+  "CanSellOnRagfair": true,
+  "ConflictingItems": [],
+  "Contusion": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "Damage": 150,
+      "Description": "40mm Beehive 18x .22LR Tracer",
+      "Deterioration": 1,
+  "DiscardLimit": -1,
+  "DiscardingBlock": false,
+  "DropSoundType": "None",
+  "DurabilityBurnModificator": 1,
   
+  "ExaminedByDefault": true,
+  "ExplosionStrength": 0,
+  "ExplosionType": "",
+  
+  "FlareTypes": [],
+  "FragmentType": "5996f6d686f77467977ba6cc",
+  "FragmentationChance": 0,
+  "FragmentsCount": 0,
+  "FuzeArmTimeSec": 0.00,
+  "HasGrenaderComponent": false,
+  "HeatFactor": 1,
+  "HeavyBleedingDelta": 1.5,
+  "Height": 1,
+  "InitialSpeed": 176,
+  "ItemSound": "ammo_launcher",
+  "LightAndSoundShotAngle": 0,
+  "LightAndSoundShotSelfContusionStrength": 0,
+  "LightAndSoundShotSelfContusionTime": 0,
+  "LightBleedingDelta": 15,
+  "MalfFeedChance": 0,
+  "MalfMisfireChance": 0.175,
+  "MaxExplosionDistance": 4,
+  "MaxFragmentsCount": 1,
+  "MinFragmentsCount": 1,
+  "MisfireChance": 0.01,
+  "PenetrationChanceObstacle": 0.01,
+  "PenetrationDamageMod": 0,
+  "PenetrationPower": 2,
+  "PenetrationPowerDiviation": 1,
+  "ProjectileCount": 18,
+  "RicochetChance": 15,
+  "SpeedRetardation": 0.00013,
+  "StaminaBurnPerDamage": 0.2592,
+  "Tracer": true,
+  "TracerColor": "red",
+  "TracerDistance": 1,
+  "Weight": 0.20,
+  "Width": 1,
+  "ammoAccr": 100,
+  "ammoDist": 0,
+  "ammoHear": 0,
+  "ammoRec": -10,
+  "ammoSfx": "standart",
+  "ammoShiftChance": 0,
+  "ammoType": "grenade",
+  "buckshotBullets": 18,
+  "casingEjectPower": 0,
+  "casingMass": 16.5,
+
+      
+      "Grids": [],
+      "Slots": []
+    },
+    "locales": {
+      "en": {
+        "Name": "BEEEES",
+        "ShortName": "BEEEES",
+        "Description": "BEEEESBEEEESBEEEESBEEEESBEEEES"
+      }
+    },
+
+    "fleaPriceRoubles": 100,
+    "handbookPriceRoubles": 110,
+    "addtoBots": true,
+    "addCaliberToAllCloneLocations": true,
+    "addtoStaticAmmo": true,
+    "staticAmmoProbability": 55,
+    "addtoSpecialSlots": false,
+
+    "addtoModSlots": false,
+
+    "addtoStaticLootContainers": true,
+
+    "StaticLootContainers": [
+      {
+        "ContainerName": "LOOTCONTAINER_DEAD_SCAV",
+        "Probability": 100
+      },
+      {
+        "ContainerName": "LOOTCONTAINER_WEAPON_BOX_4X4",
+        "Probability": 250
+      }
+    ],
+    "addtoSecureFilters": true,
+    "addtoTraders": true,
+
+    "traders": {
+      "SKIER": {
+        "69f35906ae9d5f4571e34f66": {
+          "barterSettings": {
+            "loyalLevel": 3,
+            "unlimitedCount": true,
+            "stackObjectsCount": 99999
+          },
+          "barters": [
+            {
+              "count": 1000,
+              "_tpl": "MONEY_ROUBLES"
+            }
+          ]
+        }
+      }
+    }
+  }
 }

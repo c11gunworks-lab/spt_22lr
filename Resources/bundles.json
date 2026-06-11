@@ -88,6 +88,38 @@
         "c11_shaders_22.bundle"
 
       ]
+    },
+    {
+      "key": "eley_tenex_box.bundle",
+      "dependencyKeys": [
+        "22lr.bundle",
+        "c11_shaders_22.bundle"
+
+      ]
+    },
+    {
+      "key": "cci_100rd_box.bundle",
+      "dependencyKeys": [
+        "22lr.bundle",
+        "c11_shaders_22.bundle"
+
+      ]
+    },
+    {
+      "key": "lapua_box.bundle",
+      "dependencyKeys": [
+        "22lr.bundle",
+        "c11_shaders_22.bundle"
+
+      ]
+    },
+    {
+      "key": "40mm_bee.bundle",
+      "dependencyKeys": [
+        "22lr.bundle",
+        "c11_shaders_22.bundle"
+
+      ]
     }
 
   ]

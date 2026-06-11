@@ -2,9 +2,9 @@
   "694c796b42ae52a1a940f8ba Name": "CCI .22 LR Standard Velocity",
   "694c796b42ae52a1a940f8ba ShortName": ".22LR SV",
   "694c796b42ae52a1a940f8ba Description": "CCI Standard Velocity ammunition is loaded to the same velocity as CCI Green Tag and Pistol Match ammunition but priced less to help keep your training budget in line. The clean-burning propellant helps keep semi-automatic actions clean for longer shooting sessions. Can be used for plinking or competition training. This ammunition is new production and non-corrosive.",
-  "694ef9c8bc499b141d40f8d7 Name": "CCI Stinger .22LR Copper Hollowpoint",
+  "694ef9c8bc499b141d40f8d7 Name": "CCI Minimag .22LR Copper Hollowpoint",
   "694ef9c8bc499b141d40f8d7 ShortName": "CHP",
-  "694ef9c8bc499b141d40f8d7 Description": "Want something that shoots flat and anchors varmints fast? Fill your mag with CCI® Stinger® 22 LR. The loads smoke out the muzzle at 1,640 fps and are loaded within industry standard pressures. They provide consistent, reliable performance thanks to CCI priming and brass. This performance comes at the cost of virtually non-existent penetration capability against any kind of armor.",
+  "694ef9c8bc499b141d40f8d7 Description": "Want something that shoots flat and anchors varmints fast? Fill your mag with CCI® Minimag® 22 LR. The loads smoke out the muzzle at 1,640 fps and are loaded within industry standard pressures. They provide consistent, reliable performance thanks to CCI priming and brass. This performance comes at the cost of virtually non-existent penetration capability against any kind of armor.",
   "694efa39da82e820e540f8da Name": "CCI 22 LR Shotshell #12 Shot",
   "694efa39da82e820e540f8da ShortName": ".22LR Rat",
   "694efa39da82e820e540f8da Description": "CCI continues to set the standard for quality in the 22 Long Rifle (LR) cartridge. Newly manufactured by CCI, this load is designed for pest control such as killing rats, mice, and snakes at close range (under 15 feet).\n\nThis snake shot is an ideal load manufactured to the high standards that you’ve come to expect from CCI utilizing their clean burning propellants designed to keep actions cleaner. This cartridge is not intended to cycle semi-automatic firearms. (But for today only, it will)",
@@ -31,5 +31,23 @@
   
   "69e164b6a49a3fc18dff1845 Name": "50-round box of .22 Eley Sport",
   "69e164b6a49a3fc18dff1845 ShortName": "50-rd Eley Sport",
-  "69e164b6a49a3fc18dff1845 Description": "A cardboard box containing 50 rounds of .22LR Eley Sport ammunition."
+  "69e164b6a49a3fc18dff1845 Description": "A cardboard box containing 50 rounds of .22LR Eley Sport ammunition.",
+
+  "69f291eaefe61a366be34f57 Name": "50-round box of .22 Eley Tenex Biathlon",
+  "69f291eaefe61a366be34f57 ShortName": "50-rd Eley Tenex",
+  "69f291eaefe61a366be34f57 Description": "A cardboard box containing 50 rounds of .22LR Eley Tenex Biathlon ammunition.",
+
+  "69f2925e692935d7f1e34f5b Name": "50-round box of Lapua SK Standard Plus",
+  "69f2925e692935d7f1e34f5b ShortName": "50-rd SK Plus",
+  "69f2925e692935d7f1e34f5b Description": "A cardboard box containing 50 rounds of Lapua SK Standard Plus ammunition.",
+
+
+  "69f292197231a3b514e34f59 Name": "100-round box of .22 CCI Minimag Hollowpoints",
+  "69f292197231a3b514e34f59 ShortName": "100-rd CCI Holllowpoint",
+  "69f292197231a3b514e34f59 Description": "A cardboard box containing 100 rounds of .22LR CCI Minimag Copper Hollowpoints ammunition.",
+
+
+  "69f2959e00bfd73b3de34f64 Name": "40mm XM-1822 Beehive",
+  "69f2959e00bfd73b3de34f64 ShortName": "XM-1822",
+  "69f2959e00bfd73b3de34f64 Description": "A 40mm shell containing 18 rounds of .22LR ammunition tracer rounds. PROTECT THE HIVE"
 }
